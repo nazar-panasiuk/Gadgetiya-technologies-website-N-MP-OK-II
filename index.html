@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <link rel="shortcut icon" href="favicon.png" />
+
+        <meta
+            name="description"
+            content="Новости технологий и гаджетов, обзоры последних устройств, советы по использованию техники и современные IT-тренды. Узнавайте обо всем самом важном в мире технологий каждый день."
+        />
+        <meta
+            name="keywords"
+            content="технологии, гаджеты, обзоры, новости IT, советы по технике, новые устройства, электроника, смартфоны, компьютеры, инновации"
+        />
+
+        <link
+            href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Montserrat:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/animate.min.css" />
+        <link rel="stylesheet" href="css/owl.carousel.min.css" />
+        <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+        <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+        <link rel="stylesheet" href="fonts/icomoon/style.css" />
+        <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css" />
+        <link rel="stylesheet" href="css/aos.css" />
+        <link rel="stylesheet" href="css/style.css" />
+
+        <title>Gadgetiya</title>
+    </head>
+
+    <body>
+        <div class="search-form" id="search-form">
+            <form action="">
+                <input
+                    type="search"
+                    class="form-control"
+                    placeholder="Enter keyword to search..."
+                />
+                <button class="button">
+                    <svg
+                        width="1em"
+                        height="1em"
+                        viewBox="0 0 16 16"
+                        class="bi bi-search"
+                        fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path
+                            fill-rule="evenodd"
+                            d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"
+                        />
+                        <path
+                            fill-rule="evenodd"
+                            d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"
+                        />
+                    </svg>
+                </button>
+                <button class="button">
+                    <div class="close-search">
+                        <span class="icofont-close js-close-search"></span>
+                    </div>
+                </button>
+            </form>
+        </div>
+
+        <div class="site-mobile-menu">
+            <div class="site-mobile-menu-header">
+                <div class="site-mobile-menu-close">
+                    <span class="icofont-close js-menu-toggle"></span>
+                </div>
+            </div>
+            <div class="site-mobile-menu-body"></div>
+        </div>
+
+        <nav
+            class="site-nav mb-5"
+            style="background: rgba(255, 255, 255, 0.91)"
+        >
+            <div class="sticky-nav js-sticky-header">
+                <div class="container position-relative">
+                    <div
+                        class="site-navigation text-left dark"
+                        style="display: flex; justify-content: space-between"
+                    >
+                        <a href="index.html" class="logo menu-absolute m-0"
+                            >Gadgetiya<span class="text-primary">.</span></a
+                        >
+
+                        <ul
+                            class="js-clone-nav pl-0 d-none d-lg-inline-block site-menu ml-md-3"
+                        >
+                            <li class="active">
+                                <a href="index.html">Главная</a>
+                            </li>
+                            <li><a href="service.html">Услуги</a></li>
+                            <li>
+                                <a href="testimonilas.html">Клиенти</a>
+                            </li>
+                            <li><a href="about.html">О Нас</a></li>
+                            <li><a href="contact.html">Контакты</a></li>
+                        </ul>
+
+                        <a
+                            href="#"
+                            class="burger ml-auto float-right site-menu-toggle js-menu-toggle d-inline-block d-lg-none"
+                            data-toggle="collapse"
+                            data-target="#main-navbar"
+                        >
+                            <span></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="hero d-block d-lg-flex align-items-center">
+            <div
+                class="image-hero order-1 order-lg-2"
+                style="background-image: url('images/gal_1.jpg')"
+                data-aos="fade"
+            ></div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="text-left text">
+                            <div class="intro mx-auto">
+                                <h1 class="text-left mb-4" data-aos="fade-up">
+                                    Мир технологий и гаджетов<span
+                                        class="text-primary"
+                                        >.</span
+                                    >
+                                </h1>
+                                <p class="lead-2 mb-4" data-aos="fade-up">
+                                    Узнавайте последние новости, обзоры и советы
+                                    по современным гаджетам и технологиям. Мы
+                                    делимся экспертными мнениями, рейтингами
+                                    устройств и лайфхаками для эффективного
+                                    использования техники.
+                                </p>
+                                <div class="row count-numbers stats">
+                                    <div
+                                        class="col-4 text-left"
+                                        data-aos="fade-up"
+                                        data-aos-delay="100"
+                                    >
+                                        <span class="counter"
+                                            ><span
+                                                class="number"
+                                                data-number="320"
+                                            ></span
+                                        ></span>
+                                        <p>
+                                            <span class="d-block">Обзоров</span>
+                                            опубликовано
+                                        </p>
+                                    </div>
+                                    <div
+                                        class="col-4 text-left number-wrapper"
+                                        data-aos="fade-up"
+                                        data-aos-delay="200"
+                                    >
+                                        <span class="counter"
+                                            ><span
+                                                class="number"
+                                                data-number="1200"
+                                            ></span
+                                            >+</span
+                                        >
+                                        <p>
+                                            <span class="d-block"
+                                                >Читателей</span
+                                            >
+                                            доверяют нам
+                                        </p>
+                                    </div>
+                                    <div
+                                        class="col-4 text-left"
+                                        data-aos="fade-up"
+                                        data-aos-delay="300"
+                                    >
+                                        <span class="counter"
+                                            ><span
+                                                class="number"
+                                                data-number="10"
+                                            ></span
+                                        ></span>
+                                        <p>
+                                            <span class="d-block">Лет</span>
+                                            опыта в обзорах
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="untree_co-section">
+            <div class="features">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="feature-v1 pr-md-5">
+                                <h2>
+                                    Углубите знания о
+                                    <span class="d-block">Гаджетах</span>
+                                </h2>
+                                <p>
+                                    Читайте свежие обзоры современных устройств,
+                                    узнавайте о новинках технологий и получайте
+                                    полезные советы для оптимального
+                                    использования техники.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="feature-v1">
+                                <h3>Экспертные Советы</h3>
+                                <p>
+                                    Наши эксперты делятся практическими
+                                    рекомендациями по выбору и использованию
+                                    гаджетов, чтобы каждый читатель мог сделать
+                                    осознанный выбор.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="feature-v1">
+                                <h3>Обзоры Новинок</h3>
+                                <p>
+                                    Мы тестируем и оцениваем новые устройства,
+                                    раскрывая их преимущества и недостатки,
+                                    чтобы вы были в курсе лучших технологий на
+                                    рынке.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="feature-v1">
+                                <h3>Актуальные Новости</h3>
+                                <p>
+                                    Следите за последними тенденциями в мире
+                                    технологий, узнавайте о новых гаджетах и
+                                    инновационных решениях, которые меняют
+                                    цифровой мир.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="untree_co-section pricing-wrap">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div
+                        class="col-lg-7 text-center heading mb-5"
+                        data-aos="fade-up"
+                        data-aos-delay="0"
+                    >
+                        <span class="subtitle">Наши Материалы</span>
+                        <h2>Обзоры, Советы и Новости Технологий</h2>
+                        <p>
+                            Мы публикуем только актуальные и проверенные
+                            материалы о гаджетах и технологиях. Читайте наши
+                            обзоры, следите за новостями и используйте советы
+                            экспертов для улучшения опыта работы с техникой.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div
+                        class="mb-3 mb-sm-0 col-12 col-6 col-sm-6 col-md-6 col-lg-4"
+                        data-aos="fade-up"
+                        data-aos-delay="100"
+                    >
+                        <div class="pricing color-1">
+                            <strong class="price"
+                                >Подробные Обзоры Устройств</strong
+                            >
+                            <span>
+                                Мы делаем подробные обзоры смартфонов,
+                                ноутбуков, умных гаджетов и других устройств,
+                                оцениваем их функциональность, дизайн и
+                                эффективность.
+                            </span>
+                        </div>
+                    </div>
+                    <div
+                        class="mb-3 mb-sm-0 col-12 col-6 col-sm-6 col-md-6 col-lg-4"
+                        data-aos="fade-up"
+                        data-aos-delay="200"
+                    >
+                        <div class="pricing color-2">
+                            <strong class="price">Советы и Лайфхаки</strong>
+                            <span>
+                                Мы делимся полезными советами по использованию
+                                технологий и гаджетов, чтобы вы могли
+                                максимально эффективно использовать ваши
+                                устройства.
+                            </span>
+                        </div>
+                    </div>
+                    <div
+                        class="mb-3 mb-sm-0 col-12 col-sm-12 col-md-12 col-lg-4"
+                        data-aos="fade-up"
+                        data-aos-delay="300"
+                    >
+                        <div class="pricing color-3">
+                            <strong class="price">Новости и Тренды</strong>
+                            <span>
+                                Получайте свежие новости о технологических
+                                инновациях, гаджетах и трендах IT, чтобы быть в
+                                курсе всех последних событий мира технологий.
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="untree_co-section about-wrap">
+            <div class="container">
+                <div class="row">
+                    <div
+                        class="col-lg-5 mr-auto heading mr-auto"
+                        data-aos="fade-up"
+                        data-aos-delay="0"
+                    >
+                        <span class="subtitle">Наш Подход</span>
+                        <h2 class="mb-5">
+                            Индивидуальный Путь к Миру Технологий
+                        </h2>
+                        <span>
+                            Мы создаём уникальный опыт для наших читателей,
+                            предлагая актуальные обзоры гаджетов, советы по
+                            использованию технологий и свежие новости
+                            IT-индустрии. Наш подход строится на глубоком
+                            понимании интересов аудитории и современных
+                            тенденций на рынке технологий. Мы внимательно
+                            анализируем новые устройства, их возможности и
+                            практическую ценность, чтобы предоставить полную
+                            картину для выбора гаджетов и использования
+                            технологий. Каждая публикация формируется с учётом
+                            актуальности, точности и полезности для читателя.
+                            Наша цель — помочь вам быть в курсе последних
+                            новинок, технологий и инноваций, предоставляя
+                            экспертный контент, который легко применять на
+                            практике.
+                        </span>
+                    </div>
+                    <div class="col-lg-5 ml-auto">
+                        <div class="row">
+                            <div class="col-lg-12 mt-4">
+                                <img
+                                    src="images/approach.jpg"
+                                    alt="Image"
+                                    class="img-fluid"
+                                    data-aos="fade-up"
+                                    data-aos-delay="400"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="untree_co-section">
+            <div class="testimonial-grid">
+                <div
+                    class="testimonial-image"
+                    data-aos="fade-right"
+                    data-aos-delay="100"
+                    style="background-image: url('images/img-2.jpg')"
+                ></div>
+                <div
+                    class="testimonial-inner"
+                    data-aos="fade-left"
+                    data-aos-delay="200"
+                >
+                    <blockquote>
+                        "Я ценю сайт Gadgetiya за подробные обзоры и
+                        практические советы по гаджетам. Благодаря их материалам
+                        я всегда в курсе последних новинок и могу выбрать лучшие
+                        устройства для себя. Экспертные рекомендации
+                        действительно помогают принимать правильные решения."
+                        <div
+                            class="person-image mt-3 d-flex align-items-center"
+                        >
+                            <img
+                                src="images/person-testimonial.jpg"
+                                alt="Image"
+                                class="img-fluid"
+                            />
+                            <div>
+                                <span class="name">Алексей Иванов</span>
+                                <span class="position">Техно-энтузиаст</span>
+                            </div>
+                        </div>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+
+        <div class="untree_co-section accordion--wrap bg-light">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div
+                        class="col-lg-7 heading text-center"
+                        data-aos="fade-up"
+                        data-aos-delay="0"
+                    >
+                        <span class="subtitle">Часто задаваемые вопросы</span>
+                        <h2 class="mb-5">
+                            Ваши вопросы — наши ответы о гаджетах и технологиях
+                        </h2>
+                        <span>
+                            Здесь мы отвечаем на популярные вопросы о гаджетах,
+                            обзорах и новостях технологий. Если вы хотите
+                            узнать, как выбрать устройство или как использовать
+                            технологии максимально эффективно, наши советы
+                            помогут вам разобраться.
+                        </span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div
+                        class="col-lg-12 mr-auto"
+                        data-aos="fade-up"
+                        data-aos-delay="100"
+                    >
+                        <div class="custom-accordion" id="accordion_1">
+                            <div class="accordion-item">
+                                <h2 class="mb-0">
+                                    <button
+                                        class="btn btn-link"
+                                        type="button"
+                                        data-toggle="collapse"
+                                        data-target="#collapseOne"
+                                        aria-expanded="true"
+                                        aria-controls="collapseOne"
+                                    >
+                                        Как выбрать лучший гаджет для себя?
+                                    </button>
+                                </h2>
+
+                                <div
+                                    id="collapseOne"
+                                    class="collapse show"
+                                    aria-labelledby="headingOne"
+                                    data-parent="#accordion_1"
+                                >
+                                    <div class="accordion-body">
+                                        При выборе гаджета важно учитывать
+                                        функциональность, производительность,
+                                        совместимость с другими устройствами и
+                                        личные потребности. Наши обзоры и
+                                        рейтинги помогают сделать осознанный
+                                        выбор.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="mb-0">
+                                    <button
+                                        class="btn btn-link collapsed"
+                                        type="button"
+                                        data-toggle="collapse"
+                                        data-target="#collapseTwo"
+                                        aria-expanded="false"
+                                        aria-controls="collapseTwo"
+                                    >
+                                        Где я могу узнать о новых гаджетах и
+                                        технологиях?
+                                    </button>
+                                </h2>
+                                <div
+                                    id="collapseTwo"
+                                    class="collapse"
+                                    aria-labelledby="headingTwo"
+                                    data-parent="#accordion_1"
+                                >
+                                    <div class="accordion-body">
+                                        На нашем сайте Gadgetiya вы найдете
+                                        свежие новости о новых устройствах,
+                                        инновационных технологиях и IT-трендах,
+                                        а также обзоры и советы экспертов.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="mb-0">
+                                    <button
+                                        class="btn btn-link collapsed"
+                                        type="button"
+                                        data-toggle="collapse"
+                                        data-target="#collapseThree"
+                                        aria-expanded="false"
+                                        aria-controls="collapseThree"
+                                    >
+                                        Как понять, какой гаджет подходит именно
+                                        мне?
+                                    </button>
+                                </h2>
+
+                                <div
+                                    id="collapseThree"
+                                    class="collapse"
+                                    aria-labelledby="headingThree"
+                                    data-parent="#accordion_1"
+                                >
+                                    <div class="accordion-body">
+                                        Мы публикуем подробные обзоры и
+                                        рекомендации по использованию устройств.
+                                        Читая наши материалы, вы сможете
+                                        определить, какие гаджеты лучше
+                                        соответствуют вашим задачам и стилю
+                                        жизни.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="mb-0">
+                                    <button
+                                        class="btn btn-link collapsed"
+                                        type="button"
+                                        data-toggle="collapse"
+                                        data-target="#collapseFour"
+                                        aria-expanded="false"
+                                        aria-controls="collapseFour"
+                                    >
+                                        Как часто выходят новые обзоры и советы?
+                                    </button>
+                                </h2>
+
+                                <div
+                                    id="collapseFour"
+                                    class="collapse"
+                                    aria-labelledby="headingFour"
+                                    data-parent="#accordion_1"
+                                >
+                                    <div class="accordion-body">
+                                        Мы публикуем новые обзоры, советы и
+                                        новости регулярно, чтобы наши читатели
+                                        всегда были в курсе последних новинок и
+                                        трендов в мире технологий.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cta-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="cta text-center">
+                            <h2>Будьте в авангарде мира технологий</h2>
+                            <p>
+                                Следите за последними новинками гаджетов и
+                                технологиями вместе с Gadgetiya. Наши обзоры,
+                                советы и новости помогут вам оставаться в курсе
+                                событий и делать правильный выбор устройств.
+                            </p>
+                            <p class="mb-0">
+                                <a
+                                    href="contact.html"
+                                    class="btn btn-primary btn-white"
+                                    >Связаться с нами</a
+                                >
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="site-footer bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="widget">
+                            <h3>Gadgetiya</h3>
+                            <span>
+                                Gadgetiya предоставляет актуальные обзоры
+                                гаджетов, советы по использованию технологий и
+                                свежие новости IT-индустрии. Мы создаем
+                                экспертный контент, который помогает нашим
+                                читателям делать осознанный выбор и использовать
+                                технологии максимально эффективно.
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="widget">
+                            <h3>Ссылки</h3>
+                            <ul class="list-unstyled">
+                                <li><a href="about.html">О нас</a></li>
+                                <li><a href="contact.html">Контакты</a></li>
+                                <li><a href="service.html">Услуги</a></li>
+                                <li>
+                                    <a href="terms-of-use.html"
+                                        >Условия использования</a
+                                    >
+                                </li>
+                                <li>
+                                    <a href="privacy-policy.html"
+                                        >Политика конфиденциальности</a
+                                    >
+                                </li>
+                                <li>
+                                    <a href="cookie-policy.html"
+                                        >Политика cookies</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="widget">
+                            <h3>Подписка</h3>
+                            <form
+                                action="thanks.html"
+                                class="subscribe"
+                                method="get"
+                            >
+                                <div class="d-flex">
+                                    <input
+                                        type="email"
+                                        id="email"
+                                        class="form-control"
+                                        placeholder="Ваш email"
+                                        required
+                                    />
+                                    <input
+                                        type="submit"
+                                        id="submit"
+                                        class="btn btn-black"
+                                        value="Подписаться"
+                                    />
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.site-footer -->
+
+        <div id="overlayer"></div>
+        <div class="loader">
+            <div class="spinner-border" role="status">
+                <span class="sr-only">Загрузка...</span>
+            </div>
+        </div>
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">
+                    Согласие на использование cookies
+                </h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    Этот сайт использует cookies, чтобы предоставлять вам
+                    актуальные обзоры гаджетов и новости технологий, а также
+                    улучшенный пользовательский опыт.
+                    <a href="cookie-policy.html">Узнать больше...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Принять</button>
+                <button class="cookie-button" id="declineBtn">Отклонить</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/jquery.animateNumber.min.js"></script>
+        <script src="js/jquery.waypoints.min.js"></script>
+        <script src="js/jquery.fancybox.min.js"></script>
+        <script src="js/jquery.sticky.js"></script>
+        <script src="js/aos.js"></script>
+        <script src="js/custom.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>
